@@ -18,10 +18,17 @@ import { useState } from 'react'
     setBookMarks(newBookMarks)
   }
 
-  const handleReadTime = time =>{
+  const handleReadTime = (id,time) =>{
     const newReadingTime = readingTime + time;
     setReadingTime(newReadingTime)
+
+    // remove book from bookmarks
+    
+    const remainingBooks = bookMarks.filter(bookmark=>bookmark.id!==id)
+    setBookMarks(remainingBooks);
   }
+
+
 
   
 
