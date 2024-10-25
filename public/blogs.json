@@ -1,53 +1,55 @@
 [
-    {
+  {
       "id": 1,
-      "cover": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-      "title": "The Dawn of AI",
-      "posted_date": "2024-10-10",
+      "cover": "https://i.ibb.co/84Zfw2n/1.jpg",
+      "title": "Top 10 ES6 Features You Must Know",
+      "author_img": "https://i.ibb.co/VvLNdLL/boy1.png",
+      "author": "Hamza Sohail",
+      "posted_date": "September 15, 2023",
       "reading_time": 5,
-      "author": "John Doe",
-      "author_img": "https://images.unsplash.com/photo-1511367461989-f85a21fda167",
-      "hashtags": ["#AI", "#Technology", "#Future"]
-    },
-    {
+      "hashtags": [
+          "beginners",
+          "es6"
+      ]
+  },
+  {
       "id": 2,
-      "cover": "https://images.unsplash.com/photo-1581092795363-2ed22429fbd8",
-      "title": "Exploring the Metaverse",
-      "posted_date": "2024-10-15",
-      "reading_time": 8,
-      "author": "Jane Smith",
-      "author_img": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
-      "hashtags": ["#Metaverse", "#VR", "#TechTrends"]
-    },
-    {
+      "cover": "https://i.ibb.co/6N2dgnZ/2.png",
+      "title": "JavaScript Objects for Absolute Beginners: A Fun Introduction",
+      "author_img": "https://i.ibb.co/7rFSJx5/girl1.jpg",
+      "author": "Sajal Ali",
+      "posted_date": "August 28, 2023",
+      "reading_time": 4,
+      "hashtags": [
+          "javascript",
+          "coding",
+          "dev"
+      ]
+  },
+  {
       "id": 3,
-      "cover": "https://images.unsplash.com/photo-1605733160314-c0c4b7495e0c",
-      "title": "Sustainable Living: The Green Revolution",
-      "posted_date": "2024-09-28",
-      "reading_time": 6,
-      "author": "Emily Green",
-      "author_img": "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126",
-      "hashtags": ["#Sustainability", "#EcoFriendly", "#ClimateChange"]
-    },
-    {
+      "cover": "https://i.ibb.co/RzGzcPg/3.png",
+      "title": "Component lifecycle in React — Class component vs Functional component",
+      "author_img": "https://i.ibb.co/vwGwnhT/boy2.jpg",
+      "author": "Feroze Khan",
+      "posted_date": "July 10, 2023",
+      "reading_time": 10,
+      "hashtags": [
+          "mid_level",
+          "react"
+      ]
+  },
+  {
       "id": 4,
-      "cover": "https://images.unsplash.com/photo-1581090700227-219a7a2d36bd",
-      "title": "Quantum Computing Explained",
-      "posted_date": "2024-10-20",
-      "reading_time": 7,
-      "author": "Alan Turing",
-      "author_img": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde",
-      "hashtags": ["#QuantumComputing", "#Innovation", "#Tech"]
-    },
-    {
-      "id": 5,
-      "cover": "https://images.unsplash.com/photo-1523731407965-2430cd12f5e4",
-      "title": "The Future of Space Exploration",
-      "posted_date": "2024-10-05",
+      "cover": "https://i.ibb.co/vvTfkcv/4.jpg",
+      "title": "Free images and resources collection for website",
+      "author_img": "https://i.ibb.co/Sn7zB4q/girl2.jpg",
+      "author": "Anmol Baloch",
+      "posted_date": "June 5, 2023",
       "reading_time": 9,
-      "author": "Elena Star",
-      "author_img": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9",
-      "hashtags": ["#Space", "#NASA", "#Exploration"]
-    }
-  ]
-  
+      "hashtags": [
+          "development",
+          "resources"
+      ]
+  }
+]
