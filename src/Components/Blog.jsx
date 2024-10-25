@@ -4,7 +4,7 @@ import { FaBookmark } from 'react-icons/fa';
 
 
 const Blog = ({blog, handleBookMarks}) => {
-    console.log(blog)
+    // console.log(blog)
    const {title, cover,author_img,reading_time,author,posted_date} =blog;
     return (
         <div className='mb-20'>
@@ -20,7 +20,7 @@ const Blog = ({blog, handleBookMarks}) => {
                 </div>
                 <div>
                     <span>{reading_time} min read</span>
-                    <button onClick={handleBookMarks} className='ml-2 text-2xl text-red-600'><FaBookmark></FaBookmark></button>
+                    <button onClick={()=>handleBookMarks(blog)} className='ml-2 text-2xl text-red-600'><FaBookmark></FaBookmark></button>
 
                 </div>
             </div>
@@ -32,6 +32,7 @@ const Blog = ({blog, handleBookMarks}) => {
 
 Blog.propTypes ={
     blog: PropTypes.object.isRequired,
+    handleBookMarks: PropTypes.func
 }
 
 export default Blog;
